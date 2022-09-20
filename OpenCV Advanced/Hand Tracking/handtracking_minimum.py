@@ -5,7 +5,7 @@ import time
 
 
 # define a video capture object
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 mpHands = mp.solutions.hands
 hands = mpHands.Hands()
